@@ -1,0 +1,54 @@
+!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brumile | Habilidades</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h2 class="pt">Brumile.Dev</h2><h2 class="en">Brumile.Dev</h2>
+            <span style="font-size: 0.7rem; color: var(--primary); letter-spacing: 2px; text-transform: uppercase;">
+                <span class="pt">Expertise da Dupla</span><span class="en">Team Expertise</span>
+            </span>
+        </div>
+        <nav>
+            <a href="index.html"><span class="pt">Início</span><span class="en">Home</span></a>
+            <a href="habilidades.html" class="ativo"><span class="pt">Habilidades</span><span class="en">Skills</span></a>
+            <a href="experiencia.html"><span class="pt">Experiência</span><span class="en">Exp</span></a>
+            <a href="portfolio.html"><span class="pt">Portfólio</span><span class="en">Portfolio</span></a>
+            <a href="contato.html"><span class="pt">Contato</span><span class="en">Contact</span></a>
+            <button id="lang-switch" class="lang-btn">EN</button>
+        </nav>
+    </header>
+<main>
+    <section class="reveal" style="text-align: center;">
+        <h1 class="pt">Fale com a <span style="color: var(--primary)">Brumile</span></h1>
+        <h1 class="en">Contact <span style="color: var(--primary)">Brumile</span></h1>
+        <p class="pt">Tem uma ideia ou um projeto em mente? Bruno e Camile estão prontos para ajudar a tirar do papel.</p>
+        <p class="en">Have an idea or a project in mind? Bruno and Camile are ready to help bring it to life.</p>
+    </section>
+
+    <div class="reveal" style="display: flex; justify-content: center; margin-top: 50px;">
+        <form style="width: 100%; max-width: 650px; background: var(--glass); padding: 45px; border-radius: 30px; border: 1px solid var(--glass-border);">
+            <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 25px; margin-bottom: 25px;">
+                <input type="text" placeholder="Nome / Name" required style="padding: 18px; border-radius: 12px; border: 1px solid var(--glass-border); background: rgba(0,0,0,0.5); color: white;">
+                <input type="email" placeholder="Email" required style="padding: 18px; border-radius: 12px; border: 1px solid var(--glass-border); background: rgba(0,0,0,0.5); color: white;">
+            </div>
+            <textarea placeholder="Sua mensagem para a dupla / Your message for the team" rows="6" required style="width: 100%; padding: 18px; border-radius: 12px; border: 1px solid var(--glass-border); background: rgba(0,0,0,0.5); color: white; margin-bottom: 25px; box-sizing: border-box; font-family: inherit;"></textarea>
+            <button type="submit" class="lang-btn" style="width: 100%; padding: 20px; font-size: 1.1rem; text-transform: uppercase; letter-spacing: 1px;">
+                <span class="pt">Enviar para Bruno e Camile</span><span class="en">Send to Bruno and Camile</span>
+            </button>
+        </form>
+    </div>
+</main>
+<footer>
+        <a href="#"><img src="https://cdn-icons-png.flaticon.com/512/2111/2111463.png" alt="Instagram"></a>
+        <a href="#"><img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="LinkedIn"></a>
+        <a href="#"><img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="GitHub"></a>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
